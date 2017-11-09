@@ -1,16 +1,16 @@
 # InGame 2nd Project - Script
 
 ### **Setup, introduce hero**
-*Scene I - Midday, green forest, you're on your bike (crossing from left to right).* 
+*Scene I - Midday, green forest, you're on walking from school through the forest* 
 
-You’re **Oli**. A 13 year old girl going to school through the nearby forest on her bicycle. As you cycle through the forest, you encounter a magnificent shining flower you've never seen before. 
+You’re **Oli**. A 13 year old girl going back from school through the nearby forest. As you walk, you encounter a magnificent shining flower you've never seen before. 
 
-**Player actions**: (1) Get of the bike, (2) pick the flower
+**Player actions**: (1) pick the flower
 
 ![Description](http://musingsfromus.com/wp-content/uploads/2011/03/Jumanji-1995-ScreenShot-23.jpg)
 
 
-### **Intrudoce Problem**
+### **Introduce Problem**
 
 You pick up the flower, and a second later, everything changes. You find yourself in an "Upside down".
 
@@ -21,17 +21,11 @@ You pick up the flower, and a second later, everything changes. You find yoursel
 **Player actions: **
 (1) Try to move - 
 
-> **Oli**: "There's no way I'm walking in this darkness"
+> **Oli**: "There's no way I'm walking alone in this darkness"
+> (necessary to force the first encounter with the old man)
 
-(2) Interact with the bicycle
+(2) Interact with **Ian** (hiding somehow)
 
- - Pick up the bicycle 
- > **Oli**: "I cant pick it up, it's too heavy!"
- 
- - Turn on the flashlight 
- - Take out the backpack from the front rack
-
-Once you turn on the light, it will shine on the Ian sleeping. 
 ![Old hairy man](https://nerdist.com/wp-content/uploads/2016/09/Robin-Willaims-in-Jumanji-e1474387004107-970x544.jpg)
 
 >**Ian**:
@@ -65,31 +59,30 @@ Once you turn on the light, it will shine on the Ian sleeping.
 ### **Progress**
 *Still the same scene*
 
-Quests quests quests
+See game mechanism diagram for details. 
 
 ### **Climax**
-As the flower grows, you hear a strange noise. 
+As the flower grows, you hear a scream sound, creatures in the frame run. 
 **Ian**:
 > "It's the **Shadow**! Quickly! We must hide!"
 
-**Oli**: 
-> - "What about the flower?"
-> - "AHHHHHHH!!!!"
-> - "Run and hide"
-
 *Ian hides*
 
-**30 seconds timer starts for you to hide**
-> - **If you didn't hide**, the Shadow will eat you alive
+**15 seconds timer starts for you to hide**
+> - **If you didn't hide**, the Shadow will eat you alive. Game over.
 > - **If you did hide**, you may continue
 
 After the Shadow passes, you can crawl out of your hiding spot and go to the flower with **Ian**. 
+
 **Oli**: 
 >"You're ready? On my count ..."
 
 *Scene III - looks the same as scene I*
 
-As you and **Ian** touch the flower together, you're immidiatly transferd back to the real world, and **Ian** is a young boy again (Jumanji effect)
+You're back in the real world! 
+
+**Ian**:
+> "Fuck! I forgot my hat.."
 
 ###**Inspiration**
 ![enter image description here](http://i0.kym-cdn.com/photos/images/original/001/152/807/c51.gif)
