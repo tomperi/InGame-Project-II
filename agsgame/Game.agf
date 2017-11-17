@@ -797,14 +797,14 @@
             </NormalGUI>
             <Controls>
               <GUIInventory>
-                <ItemWidth>40</ItemWidth>
-                <ItemHeight>22</ItemHeight>
+                <ItemWidth>75</ItemWidth>
+                <ItemHeight>75</ItemHeight>
                 <CharacterID>-1</CharacterID>
-                <Height>178</Height>
+                <Height>182</Height>
                 <Locked>False</Locked>
-                <Width>380</Width>
+                <Width>372</Width>
                 <Left>10</Left>
-                <Top>10</Top>
+                <Top>9</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>invCustomInv</Name>
@@ -1777,8 +1777,8 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>14</CursorImage>
-            <Image>14</Image>
+            <CursorImage>34</CursorImage>
+            <Image>34</Image>
             <Description>Nuts</Description>
             <Name>iNuts</Name>
             <Properties />
@@ -1810,11 +1810,11 @@
           </InventoryItem>
           <InventoryItem>
             <ID>3</ID>
-            <HotspotX>127</HotspotX>
-            <HotspotY>90</HotspotY>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>17</CursorImage>
-            <Image>17</Image>
+            <CursorImage>35</CursorImage>
+            <Image>35</Image>
             <Description>Sandwich</Description>
             <Name>iSandwich</Name>
             <Properties />
@@ -1846,8 +1846,8 @@
           </InventoryItem>
           <InventoryItem>
             <ID>5</ID>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>80</HotspotX>
+            <HotspotY>53</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>13</CursorImage>
             <Image>13</Image>
@@ -2042,7 +2042,7 @@
             <IdleView>1</IdleView>
             <ThinkingView>1</ThinkingView>
             <BlinkingView>1</BlinkingView>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>3</StartingRoom>
             <StartX>1014</StartX>
             <StartY>349</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2628,6 +2628,31 @@
               <Sprite Slot="28" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="29" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="30" Width="32" Height="27" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="Inventory">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="32" Width="74" Height="51" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Google Drive\IDC\2nd Year\InGame\Project 2\InGame-Project-II\Art\Objects\Inventory\hat with water--inventory.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="33" Width="73" Height="44" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Google Drive\IDC\2nd Year\InGame\Project 2\InGame-Project-II\Art\Objects\Inventory\hat-inventory.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="34" Width="72" Height="59" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Google Drive\IDC\2nd Year\InGame\Project 2\InGame-Project-II\Art\Objects\Inventory\nuts-inventory.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="35" Width="70" Height="42" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Google Drive\IDC\2nd Year\InGame\Project 2\InGame-Project-II\Art\Objects\Inventory\sandwich-inventory.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>
