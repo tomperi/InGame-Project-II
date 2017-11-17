@@ -1,0 +1,30 @@
+InGame Project II 
+
+General 
+------------
+	[] Game name??
+
+Design
+------------
+	[] All animations
+	[] GUI and inventory looks
+	
+Programming
+------------
+General
+	[] GUI - buttons look
+	[] Inventory
+	[] Game start / finish / credits
+	[] Adding all game animation (!!) - Oli\Jacob walking, tree, tear drop etc
+	[] Sound (?)
+Room I (green forest)
+	[] Intro - story
+	[] Ending scene with jaboc (relocate both characters in the green forest, add dialogue, fade out to credits)
+Room II (dark forest)
+	[] Jacob-Oli interaction - dialogue, animation etc
+	[] Eye tree - adding all interaction, anymation and tear dorp
+	[] Planting area for the seed
+	[] Game end conditions -> return to room II
+Room III (inside the tree)
+	[] Go back to Room II by clicking on the surroundings
+	[] Make sure the objects look good in the inventory
