@@ -2089,7 +2089,7 @@
 @S  // Dialog startup entry point
 Char1: Bitch who the fuck are you?
 Char1: Give me your tears gypsey.
-return]]></Script>
+stop]]></Script>
             <DialogOptions />
           </Dialog>
         </Dialogs>
