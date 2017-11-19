@@ -1836,8 +1836,8 @@
           </InventoryItem>
           <InventoryItem>
             <ID>4</ID>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
+            <HotspotX>34</HotspotX>
+            <HotspotY>25</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>20</CursorImage>
             <Image>20</Image>
@@ -2050,7 +2050,7 @@
             <IdleView>1</IdleView>
             <ThinkingView>1</ThinkingView>
             <BlinkingView>1</BlinkingView>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>3</StartingRoom>
             <StartX>1014</StartX>
             <StartY>349</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2639,6 +2639,11 @@ stop]]></Script>
               <Sprite Slot="19" Width="65" Height="51" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
               <Sprite Slot="20" Width="67" Height="57" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
               <Sprite Slot="31" Width="60" Height="83" ColorDepth="32" Resolution="HighRes" AlphaChannel="True" />
+              <Sprite Slot="72" Width="20" Height="18" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\seed-small.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="gIconbarImport">
