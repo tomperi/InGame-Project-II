@@ -2050,9 +2050,49 @@
             <IdleView>1</IdleView>
             <ThinkingView>1</ThinkingView>
             <BlinkingView>1</BlinkingView>
-            <StartingRoom>3</StartingRoom>
-            <StartX>1014</StartX>
+            <StartingRoom>2</StartingRoom>
+            <StartX>491</StartX>
             <StartY>349</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>4</AnimationDelay>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <ID>1</ID>
+            <ScriptName>cJacob</ScriptName>
+            <RealName>Jacob</RealName>
+            <NormalView>2</NormalView>
+            <SpeechView>2</SpeechView>
+            <IdleView>2</IdleView>
+            <ThinkingView>2</ThinkingView>
+            <BlinkingView>2</BlinkingView>
+            <StartingRoom>2</StartingRoom>
+            <StartX>265</StartX>
+            <StartY>360</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2516,6 +2556,11 @@ stop]]></Script>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>talkedToJacob</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -2642,6 +2687,11 @@ stop]]></Script>
               <Sprite Slot="72" Width="20" Height="18" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\seed-small.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="125" Width="360" Height="240" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\rock.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -2874,6 +2924,271 @@ stop]]></Script>
                   <Sprite Slot="71" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00017.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="jacob-stands">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="73" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00000.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="74" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00001.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="75" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00002.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="76" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00003.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="77" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00004.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="78" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00005.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="79" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00006.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="80" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00007.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="81" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00008.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="82" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00009.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="83" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00010.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="84" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00011.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="85" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00012.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="86" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00013.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="87" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00014.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="88" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00015.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="89" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00016.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="90" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00017.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="91" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00018.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="92" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00019.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="93" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00020.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="94" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00021.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="95" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00022.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="96" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00023.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="97" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00024.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="98" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00025.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="99" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00026.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="100" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00027.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="101" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00028.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="102" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00029.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="103" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00030.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="104" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00031.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="105" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00032.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="106" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00033.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="107" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00034.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="108" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00035.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="109" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00036.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="110" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00037.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="111" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00038.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="112" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00039.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="113" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00040.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="114" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00041.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="115" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00042.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="116" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00043.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="117" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00044.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="118" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00045.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="119" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00046.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="120" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00047.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="121" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00048.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="122" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00049.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="123" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00050.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="124" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Jacob\jacob stands up png\small\jacob stands up_00051.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
@@ -3173,12 +3488,397 @@ stop]]></Script>
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>2</ID>
+            <Name>JacobStands</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>73</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>73</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>74</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>75</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>76</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>77</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>78</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>79</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>80</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>81</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>82</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>83</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>84</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>85</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>13</ID>
+                    <Image>86</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>14</ID>
+                    <Image>87</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>15</ID>
+                    <Image>88</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>16</ID>
+                    <Image>89</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>17</ID>
+                    <Image>90</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>18</ID>
+                    <Image>91</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>19</ID>
+                    <Image>92</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>20</ID>
+                    <Image>93</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>21</ID>
+                    <Image>94</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>22</ID>
+                    <Image>95</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>23</ID>
+                    <Image>96</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>24</ID>
+                    <Image>97</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>25</ID>
+                    <Image>98</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>26</ID>
+                    <Image>99</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>27</ID>
+                    <Image>100</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>28</ID>
+                    <Image>101</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>29</ID>
+                    <Image>102</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>30</ID>
+                    <Image>103</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>31</ID>
+                    <Image>104</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>32</ID>
+                    <Image>105</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>33</ID>
+                    <Image>106</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>34</ID>
+                    <Image>107</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>35</ID>
+                    <Image>108</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>36</ID>
+                    <Image>109</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>37</ID>
+                    <Image>110</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>38</ID>
+                    <Image>111</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>39</ID>
+                    <Image>112</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>40</ID>
+                    <Image>113</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>41</ID>
+                    <Image>114</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>124</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>3</ID>
+            <Name>idleJacob</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>124</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>124</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>8</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
-    <DeletedViews>
-      <ViewID>2</ViewID>
-    </DeletedViews>
+    <DeletedViews />
     <Scripts>
       <ScriptFolder Name="Main">
         <SubFolders />
