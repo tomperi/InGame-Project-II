@@ -614,23 +614,31 @@
         <UnloadedRooms>
           <UnloadedRoom>
             <Number>1</Number>
-            <Description IsNull="True" />
+            <Description xml:space="preserve">Green Forest</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>2</Number>
-            <Description IsNull="True" />
+            <Description xml:space="preserve">Dark Forest</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>3</Number>
-            <Description IsNull="True" />
+            <Description xml:space="preserve">Inside Tree</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>4</Number>
-            <Description IsNull="True" />
+            <Description>Cutscene1</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>5</Number>
-            <Description IsNull="True" />
+            <Description>Cutscene2</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>6</Number>
+            <Description xml:space="preserve">Introduction room</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>7</Number>
+            <Description xml:space="preserve">The End</Description>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
@@ -1803,8 +1811,8 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>12</CursorImage>
-            <Image>12</Image>
+            <CursorImage>33</CursorImage>
+            <Image>33</Image>
             <Description>Hat</Description>
             <Name>iHat</Name>
             <Properties />
@@ -1854,11 +1862,11 @@
           </InventoryItem>
           <InventoryItem>
             <ID>5</ID>
-            <HotspotX>80</HotspotX>
-            <HotspotY>53</HotspotY>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>13</CursorImage>
-            <Image>13</Image>
+            <CursorImage>32</CursorImage>
+            <Image>32</Image>
             <Description xml:space="preserve">Hat with water</Description>
             <Name>iHatWithWater</Name>
             <Properties />
@@ -2050,9 +2058,9 @@
             <IdleView>1</IdleView>
             <ThinkingView>1</ThinkingView>
             <BlinkingView>1</BlinkingView>
-            <StartingRoom>2</StartingRoom>
-            <StartX>421</StartX>
-            <StartY>359</StartY>
+            <StartingRoom>-1</StartingRoom>
+            <StartX>1362</StartX>
+            <StartY>353</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2099,7 +2107,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>34800</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -2566,6 +2574,11 @@ stop]]></Script>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>finishedDarkForest</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -2667,9 +2680,14 @@ stop]]></Script>
                   <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\old man-left.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="185" Width="77" Height="147" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="185" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\jacob no hat.png</FileName>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\jacob no hat new.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="186" Width="168" Height="194" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\jacob no hat new.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -2717,6 +2735,21 @@ stop]]></Script>
               <Sprite Slot="184" Width="46" Height="63" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\tear-small.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="187" Width="82" Height="78" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\flower-small.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="188" Width="550" Height="76" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Backgrounds\intro.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="189" Width="400" Height="143" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Backgrounds\end.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -4155,7 +4188,7 @@ stop]]></Script>
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>185</Image>
+                    <Image>186</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
