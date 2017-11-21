@@ -647,7 +647,7 @@
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
-              <Visibility>Normal</Visibility>
+              <Visibility>NormalButInitiallyOff</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
               <BorderColor>1</BorderColor>
@@ -688,12 +688,12 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2044</Image>
+                <Image>129</Image>
                 <Text />
-                <Height>54</Height>
+                <Height>53</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>0</Left>
+                <Width>54</Width>
+                <Left>170</Left>
                 <Top>0</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
@@ -709,12 +709,12 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2045</Image>
+                <Image>126</Image>
                 <Text />
-                <Height>54</Height>
+                <Height>55</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>91</Left>
+                <Width>54</Width>
+                <Left>234</Left>
                 <Top>0</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
@@ -730,12 +730,12 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2046</Image>
+                <Image>128</Image>
                 <Text />
                 <Height>54</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>181</Left>
+                <Width>55</Width>
+                <Left>299</Left>
                 <Top>0</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
@@ -751,12 +751,12 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2047</Image>
+                <Image>127</Image>
                 <Text />
-                <Height>54</Height>
+                <Height>55</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>273</Left>
+                <Width>54</Width>
+                <Left>370</Left>
                 <Top>0</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
@@ -777,7 +777,7 @@
                 <Height>54</Height>
                 <Locked>False</Locked>
                 <Width>64</Width>
-                <Left>576</Left>
+                <Left>437</Left>
                 <Top>0</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
@@ -2051,8 +2051,8 @@
             <ThinkingView>1</ThinkingView>
             <BlinkingView>1</BlinkingView>
             <StartingRoom>2</StartingRoom>
-            <StartX>491</StartX>
-            <StartY>349</StartY>
+            <StartX>421</StartX>
+            <StartY>359</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2091,8 +2091,8 @@
             <ThinkingView>2</ThinkingView>
             <BlinkingView>2</BlinkingView>
             <StartingRoom>2</StartingRoom>
-            <StartX>265</StartX>
-            <StartY>360</StartY>
+            <StartX>264</StartX>
+            <StartY>358</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2114,7 +2114,7 @@
               <Event Index="0" />
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">cJacob_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -2561,6 +2561,11 @@ stop]]></Script>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>treeOpen</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -2662,6 +2667,11 @@ stop]]></Script>
                   <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\old man-left.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="185" Width="77" Height="147" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\jacob no hat.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Objects">
@@ -2692,6 +2702,21 @@ stop]]></Script>
               <Sprite Slot="125" Width="360" Height="240" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\rock.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="182" Width="120" Height="109" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye of tree.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="183" Width="33" Height="29" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\jacobs leg.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="184" Width="46" Height="63" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\tear-small.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -3193,8 +3218,298 @@ stop]]></Script>
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
+              <SpriteFolder Name="eye-opens">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="130" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00000.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="131" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00001.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="132" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00002.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="133" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00003.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="134" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00004.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="135" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00005.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="136" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00006.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="137" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00007.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="138" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00008.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="139" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00009.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="140" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00010.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="141" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00011.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="142" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00012.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="143" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00013.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="144" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00014.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="145" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00015.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="146" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00016.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="147" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00017.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="148" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00018.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="149" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00019.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="150" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00020.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="151" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00021.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="152" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00022.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="153" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00023.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="154" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00024.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="155" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00025.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="156" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00026.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="157" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00027.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="158" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00028.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="159" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00029.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="160" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00030.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="161" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00031.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="162" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00032.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="163" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00033.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="164" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00034.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="165" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00035.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="166" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00036.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="167" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00037.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="168" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00038.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="169" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00039.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="170" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00040.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="171" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00041.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="172" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00042.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="173" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00043.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="174" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00044.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="175" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00045.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="176" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00046.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="177" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00047.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="178" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00048.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="179" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00049.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="180" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00050.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="181" Width="132" Height="127" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\eye open png\small\eye open_00051.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
             </SubFolders>
             <Sprites />
+          </SpriteFolder>
+          <SpriteFolder Name="UI">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="126" Width="54" Height="55" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\UI\Small\look.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="127" Width="54" Height="55" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\UI\Small\speak.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="128" Width="55" Height="54" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\UI\Small\touch.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="129" Width="54" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\UI\Small\walk.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
           </SpriteFolder>
         </SubFolders>
         <Sprites>
@@ -3215,7 +3530,15 @@ stop]]></Script>
               <Loop>
                 <ID>0</ID>
                 <RunNextLoop>False</RunNextLoop>
-                <Frames />
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>36</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
               </Loop>
               <Loop>
                 <ID>1</ID>
@@ -3484,7 +3807,15 @@ stop]]></Script>
               <Loop>
                 <ID>3</ID>
                 <RunNextLoop>False</RunNextLoop>
-                <Frames />
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>54</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
               </Loop>
             </Loops>
           </View>
@@ -3821,7 +4152,15 @@ stop]]></Script>
               <Loop>
                 <ID>3</ID>
                 <RunNextLoop>False</RunNextLoop>
-                <Frames />
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>185</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
               </Loop>
             </Loops>
           </View>
@@ -3872,6 +4211,382 @@ stop]]></Script>
                 <ID>3</ID>
                 <RunNextLoop>False</RunNextLoop>
                 <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>4</ID>
+            <Name>eye</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>130</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>131</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>132</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>133</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>134</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>135</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>136</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>137</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>138</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>139</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>140</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>141</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>142</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>13</ID>
+                    <Image>143</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>14</ID>
+                    <Image>144</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>15</ID>
+                    <Image>145</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>16</ID>
+                    <Image>146</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>17</ID>
+                    <Image>147</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>18</ID>
+                    <Image>148</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>19</ID>
+                    <Image>149</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>20</ID>
+                    <Image>150</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>21</ID>
+                    <Image>151</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>22</ID>
+                    <Image>152</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>23</ID>
+                    <Image>153</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>24</ID>
+                    <Image>154</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>25</ID>
+                    <Image>155</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>26</ID>
+                    <Image>156</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>27</ID>
+                    <Image>157</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>28</ID>
+                    <Image>158</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>29</ID>
+                    <Image>159</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>30</ID>
+                    <Image>160</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>31</ID>
+                    <Image>161</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>32</ID>
+                    <Image>162</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>33</ID>
+                    <Image>163</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>34</ID>
+                    <Image>164</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>35</ID>
+                    <Image>165</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>36</ID>
+                    <Image>166</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>37</ID>
+                    <Image>167</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>38</ID>
+                    <Image>168</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>39</ID>
+                    <Image>169</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>40</ID>
+                    <Image>170</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>41</ID>
+                    <Image>171</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>42</ID>
+                    <Image>172</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>43</ID>
+                    <Image>173</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>44</ID>
+                    <Image>174</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>45</ID>
+                    <Image>175</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>46</ID>
+                    <Image>176</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>47</ID>
+                    <Image>177</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>48</ID>
+                    <Image>178</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>49</ID>
+                    <Image>179</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>50</ID>
+                    <Image>180</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>51</ID>
+                    <Image>181</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
               </Loop>
             </Loops>
           </View>
