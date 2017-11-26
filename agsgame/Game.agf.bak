@@ -3,7 +3,7 @@
 <AGSEditorDocument Version="3.0.3.2" VersionIndex="13" EditorVersion="3.4.0">
   <Game>
     <Settings>
-      <GameName>agsgame</GameName>
+      <GameName xml:space="preserve">Oli's Magical Journey</GameName>
       <UniqueID>338001640</UniqueID>
       <GUIDAsString>{eb2b3788-31c4-4e67-9fd2-c05cd56b3e20}</GUIDAsString>
       <ColorDepth>TrueColor</ColorDepth>
@@ -72,9 +72,9 @@
       <DeveloperURL />
       <EnhancedSaveGames>False</EnhancedSaveGames>
       <SaveGameFileExtension />
-      <SaveGameFolderName>agsgame</SaveGameFolderName>
+      <SaveGameFolderName xml:space="preserve">Oli's Magical Journey</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>0</AudioIndexer>
+      <AudioIndexer>3</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
     </Settings>
     <LipSync>
@@ -6316,7 +6316,44 @@ See KeyboardMovement.txt for details.
         <SubFolders>
           <AudioClipFolder Name="Music">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <ScriptName>aTrack_1</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Sound\track 1.mp3</SourceFileName>
+                <Index>1</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-11-26 11:12:57Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aTrack_2</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Sound\track 2.mp3</SourceFileName>
+                <Index>2</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-11-26 11:12:57Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aTrack_3</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Sound\track 3.mp3</SourceFileName>
+                <Index>3</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-11-26 11:12:57Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
