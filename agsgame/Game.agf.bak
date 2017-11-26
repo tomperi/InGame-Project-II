@@ -2588,14 +2588,14 @@ stop
           <SpriteFolder Name="Characters">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="10" Width="84" Height="155" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="10" Width="63" Height="117" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\dorm\Documents\Assets\oli.png</FileName>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\oli-left.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="11" Width="84" Height="155" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="11" Width="63" Height="116" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\dorm\Documents\Assets\oli-right.png</FileName>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\oli-right.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="8" Width="79" Height="163" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
@@ -2618,12 +2618,12 @@ stop
                   <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\jacob no hat new.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="329" Width="75" Height="154" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="329" Width="57" Height="116" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\oli back.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="330" Width="74" Height="159" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="330" Width="57" Height="120" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\oli front.png</FileName>
                 </Source>
@@ -2767,92 +2767,92 @@ stop
               <SpriteFolder Name="Oli-walk-left">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="36" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="36" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00000.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="37" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="37" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00001.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="38" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="38" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00002.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="39" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="39" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00003.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="40" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="40" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00004.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="41" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="41" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00005.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="42" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="42" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00006.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="43" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="43" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00007.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="44" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="44" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00008.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="45" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="45" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00009.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="46" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="46" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00010.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="47" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="47" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00011.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="48" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="48" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00012.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="49" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="49" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00013.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="50" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="50" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00014.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="51" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="51" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00015.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="52" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="52" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00016.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="53" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="53" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-left\Small\oli walks h1_00017.png</FileName>
                     </Source>
@@ -2862,92 +2862,92 @@ stop
               <SpriteFolder Name="oli-walk-right">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="54" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="54" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00000.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="55" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="55" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00001.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="56" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="56" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00002.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="57" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="57" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00003.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="58" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="58" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00004.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="59" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="59" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00005.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="60" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="60" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00006.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="61" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="61" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00007.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="62" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="62" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00008.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="63" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="63" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00009.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="64" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="64" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00010.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="65" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="65" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00011.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="66" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="66" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00012.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="67" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="67" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00013.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="68" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="68" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00014.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="69" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="69" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00015.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="70" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="70" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00016.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="71" Width="82" Height="157" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="71" Width="62" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Characters\Animations\Oli\walk-right\oli walks h1_00017.png</FileName>
                     </Source>
