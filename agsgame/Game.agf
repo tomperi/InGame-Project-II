@@ -671,7 +671,7 @@
             <NormalGUI>
               <OnClick />
               <Height>54</Height>
-              <Width>640</Width>
+              <Width>320</Width>
               <Left>0</Left>
               <Top>346</Top>
               <Clickable>True</Clickable>
@@ -701,7 +701,7 @@
                 <Height>53</Height>
                 <Locked>False</Locked>
                 <Width>54</Width>
-                <Left>170</Left>
+                <Left>2</Left>
                 <Top>0</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
@@ -722,7 +722,7 @@
                 <Height>55</Height>
                 <Locked>False</Locked>
                 <Width>54</Width>
-                <Left>234</Left>
+                <Left>64</Left>
                 <Top>0</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
@@ -743,7 +743,7 @@
                 <Height>54</Height>
                 <Locked>False</Locked>
                 <Width>55</Width>
-                <Left>299</Left>
+                <Left>127</Left>
                 <Top>0</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
@@ -764,7 +764,7 @@
                 <Height>55</Height>
                 <Locked>False</Locked>
                 <Width>54</Width>
-                <Left>370</Left>
+                <Left>195</Left>
                 <Top>0</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
@@ -785,7 +785,7 @@
                 <Height>55</Height>
                 <Locked>False</Locked>
                 <Width>54</Width>
-                <Left>437</Left>
+                <Left>259</Left>
                 <Top>0</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
