@@ -847,7 +847,7 @@
                 <Name>btnInvSelect</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick />
+                <OnClick>btnInvLook_OnClick</OnClick>
                 <ClickAction>SetCursorMode</ClickAction>
                 <NewModeNumber>1</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -1652,7 +1652,7 @@
             <Name>iNuts</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iNuts_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1670,7 +1670,7 @@
             <Name>iHat</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iHat_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1688,7 +1688,7 @@
             <Name>iSandwich</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iSandwich_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1706,7 +1706,7 @@
             <Name>iSeed</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iSeed_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1724,7 +1724,7 @@
             <Name>iHatWithWater</Name>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">iHatWithWater_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
