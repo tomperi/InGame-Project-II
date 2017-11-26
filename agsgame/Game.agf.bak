@@ -2680,9 +2680,9 @@ stop
                   <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Objects\flower-small.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="188" Width="550" Height="76" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="188" Width="550" Height="118" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                 <Source>
-                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Backgrounds\intro.png</FileName>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Backgrounds\intro2.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="189" Width="400" Height="143" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
