@@ -1996,13 +1996,13 @@
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Jacob: I'm freaking hungry, you don't have some food by any chance?
+Jacob: I'm freaking hungry, you don't have some food by any chance do you?
 return
 @1
 Jacob: That's too bad kid. In this forest of terror you either get food or become food. Get it?!
 stop
 @2
-Jacob: I used to a me a nice sandwich, but it got stolen by some mean shitty vampire squirrel.
+Jacob: I used to have me a nice sandwich, but it got stolen by some mean shitty vampire squirrel.
 stop
 @3
 Jacob: You can have my hat if you give me some food. I'm in pain here girl!
@@ -2718,6 +2718,11 @@ stop
               <Sprite Slot="327" Width="200" Height="120" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                 <Source>
                   <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Backgrounds\names.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="331" Width="250" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Peri\Desktop\Project 2\InGame-Project-II\Art\Backgrounds\start.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
